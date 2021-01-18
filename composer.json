@@ -1,0 +1,8 @@
+{
+    "require": {
+        "ebcms/admin": "^1.0",
+        "ebcms/server": "^1.0",
+        "ebcms/plugin": "^1.0",
+        "ebcms/store": "^1.0"
+    }
+}
