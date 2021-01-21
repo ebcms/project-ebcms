@@ -3,11 +3,12 @@
     "description": "易贝内容管理系统",
     "version": "1.0.0-dev",
     "type": "project",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "require": {
         "ebcms/admin": "^1.0",
-        "ebcms/store": "^1.0",
+        "ebcms/server": "^1.0",
         "ebcms/plugin": "^1.0",
+        "ebcms/store": "^1.0",
         "ebcms/fragment": "^1.0",
         "ebcms/cms": "^1.0"
     }

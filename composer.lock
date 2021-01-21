@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c333aa5f25672f3569478871391137df",
+    "content-hash": "985e27bc56d6ee90c287afb3b3787211",
     "packages": [
         {
             "name": "catfan/medoo",
@@ -697,6 +697,45 @@
             ],
             "description": "router",
             "time": "2021-01-18T12:25:51+00:00"
+        },
+        {
+            "name": "ebcms/server",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ebcms/app-server.git",
+                "reference": "22f2c8680309ef1e0e793427bbea9cca48438a3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ebcms/app-server/zipball/22f2c8680309ef1e0e793427bbea9cca48438a3a",
+                "reference": "22f2c8680309ef1e0e793427bbea9cca48438a3a",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ebcms/admin": "1.*"
+            },
+            "type": "ebcms-app",
+            "extra": {
+                "api": "https://www.ebcms.com/plugin/server/api"
+            },
+            "autoload": {
+                "psr-4": {
+                    "App\\Ebcms\\Server\\": "src/library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "系统更新服务",
+            "time": "2021-01-16T05:51:53+00:00"
         },
         {
             "name": "ebcms/session",
@@ -1672,6 +1711,5 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "platform-dev": []
 }
