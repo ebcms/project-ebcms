@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "466a9d64fdeff8ea3df904125a793dd7",
+    "content-hash": "c333aa5f25672f3569478871391137df",
     "packages": [
         {
             "name": "catfan/medoo",
@@ -74,16 +74,16 @@
         },
         {
             "name": "ebcms/admin",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/app-admin.git",
-                "reference": "ffeaf43e90ead1a3acb79c3e57fdf7cbe1806657"
+                "reference": "3b8c3c346a65a8360ac86b0df5baec4165728ae7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/app-admin/zipball/ffeaf43e90ead1a3acb79c3e57fdf7cbe1806657",
-                "reference": "ffeaf43e90ead1a3acb79c3e57fdf7cbe1806657",
+                "url": "https://api.github.com/repos/ebcms/app-admin/zipball/3b8c3c346a65a8360ac86b0df5baec4165728ae7",
+                "reference": "3b8c3c346a65a8360ac86b0df5baec4165728ae7",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -113,7 +113,7 @@
                 "Apache-2.0"
             ],
             "description": "admin console for ebcms",
-            "time": "2021-01-18T12:50:23+00:00"
+            "time": "2021-01-20T11:19:19+00:00"
         },
         {
             "name": "ebcms/captcha",
@@ -150,6 +150,45 @@
             ],
             "description": "ebcms captcha",
             "time": "2021-01-16T07:55:04+00:00"
+        },
+        {
+            "name": "ebcms/cms",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ebcms/app-cms.git",
+                "reference": "984a1a574db914d18c1e5bd1c01c970563991bdf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ebcms/app-cms/zipball/984a1a574db914d18c1e5bd1c01c970563991bdf",
+                "reference": "984a1a574db914d18c1e5bd1c01c970563991bdf",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ebcms/admin": "^1.0",
+                "ebcms/fragment": "1.*",
+                "ebcms/web": "1.*",
+                "ebcms/xss-clear": "1.*"
+            },
+            "type": "ebcms-app",
+            "autoload": {
+                "psr-4": {
+                    "App\\Ebcms\\Cms\\": "src/library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "ebcms cms",
+            "time": "2021-01-20T11:57:41+00:00"
         },
         {
             "name": "ebcms/database",
@@ -222,6 +261,46 @@
                 "Apahce-2.0"
             ],
             "time": "2021-01-16T05:34:37+00:00"
+        },
+        {
+            "name": "ebcms/fragment",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ebcms/app-fragment.git",
+                "reference": "fe3c69224ad78b40a9148674e16b0c73f444c388"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ebcms/app-fragment/zipball/fe3c69224ad78b40a9148674e16b0c73f444c388",
+                "reference": "fe3c69224ad78b40a9148674e16b0c73f444c388",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ebcms/admin": "^1.0",
+                "ebcms/database": "^1.0",
+                "ebcms/form-builder": "^1.0",
+                "ebcms/framework": "1.*",
+                "ebcms/request-filter": "^1.0"
+            },
+            "type": "ebcms-app",
+            "autoload": {
+                "psr-4": {
+                    "App\\Ebcms\\Fragment\\": "src/library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "ebcms fragment",
+            "time": "2021-01-20T12:24:00+00:00"
         },
         {
             "name": "ebcms/framework",
@@ -620,45 +699,6 @@
             "time": "2021-01-18T12:25:51+00:00"
         },
         {
-            "name": "ebcms/server",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ebcms/app-server.git",
-                "reference": "22f2c8680309ef1e0e793427bbea9cca48438a3a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/app-server/zipball/22f2c8680309ef1e0e793427bbea9cca48438a3a",
-                "reference": "22f2c8680309ef1e0e793427bbea9cca48438a3a",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "ebcms/admin": "1.*"
-            },
-            "type": "ebcms-app",
-            "extra": {
-                "api": "https://www.ebcms.com/plugin/server/api"
-            },
-            "autoload": {
-                "psr-4": {
-                    "App\\Ebcms\\Server\\": "src/library/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "系统更新服务",
-            "time": "2021-01-16T05:51:53+00:00"
-        },
-        {
             "name": "ebcms/session",
             "version": "1.0.1",
             "source": {
@@ -766,6 +806,75 @@
             ],
             "description": "php template engine!",
             "time": "2021-01-16T05:26:48+00:00"
+        },
+        {
+            "name": "ebcms/web",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ebcms/app-web.git",
+                "reference": "5e773162ac4da44283e3dcb61fe313f5c4e07e81"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ebcms/app-web/zipball/5e773162ac4da44283e3dcb61fe313f5c4e07e81",
+                "reference": "5e773162ac4da44283e3dcb61fe313f5c4e07e81",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ebcms/admin": "^1.0"
+            },
+            "type": "ebcms-app",
+            "autoload": {
+                "psr-4": {
+                    "App\\Ebcms\\Web\\": "src/library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "web端",
+            "time": "2021-01-21T12:20:49+00:00"
+        },
+        {
+            "name": "ebcms/xss-clear",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ebcms/library-xss-clear.git",
+                "reference": "519f6bd88e4cc678b45b9b82b61e9ec743814f12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ebcms/library-xss-clear/zipball/519f6bd88e4cc678b45b9b82b61e9ec743814f12",
+                "reference": "519f6bd88e4cc678b45b9b82b61e9ec743814f12",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ebcms\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "php xss clear",
+            "time": "2021-01-16T08:24:30+00:00"
         },
         {
             "name": "fig/event-dispatcher-util",
@@ -1563,5 +1672,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

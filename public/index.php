@@ -9,4 +9,4 @@ if (version_compare(PHP_VERSION, '7.1.0', '<')) {
     die('PHP >= 7.1');
 }
 
-App::getInstance()->run();
+App::getInstance()->run(__DIR__ . '/../');
