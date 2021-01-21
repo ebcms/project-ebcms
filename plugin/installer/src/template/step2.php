@@ -14,7 +14,7 @@
             {
                 $items = [
                     'os' => ['操作系统', '不限制', '类Unix', PHP_OS, true],
-                    'php' => ['PHP版本', '7.2', '7.2+', PHP_VERSION, true],
+                    'php' => ['PHP版本', '7.1', '7.1+', PHP_VERSION, true],
                     'upload' => ['附件上传', '不限制', '2M+', '未知', true],
                     'gd' => ['GD库', '2.0', '2.0+', '未知', true],
                     'disk' => ['磁盘空间', '100M', '不限制', '未知', true],
