@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "985e27bc56d6ee90c287afb3b3787211",
+    "content-hash": "0d34c7edadb174a34f7d0f644e4354c3",
     "packages": [
         {
             "name": "catfan/medoo",
@@ -74,16 +74,16 @@
         },
         {
             "name": "ebcms/admin",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/app-admin.git",
-                "reference": "3b8c3c346a65a8360ac86b0df5baec4165728ae7"
+                "reference": "63a474857f7240f3d94a0aeaed6c80639d2b23fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/app-admin/zipball/3b8c3c346a65a8360ac86b0df5baec4165728ae7",
-                "reference": "3b8c3c346a65a8360ac86b0df5baec4165728ae7",
+                "url": "https://api.github.com/repos/ebcms/app-admin/zipball/63a474857f7240f3d94a0aeaed6c80639d2b23fd",
+                "reference": "63a474857f7240f3d94a0aeaed6c80639d2b23fd",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -113,7 +113,7 @@
                 "Apache-2.0"
             ],
             "description": "admin console for ebcms",
-            "time": "2021-01-20T11:19:19+00:00"
+            "time": "2021-01-21T13:15:26+00:00"
         },
         {
             "name": "ebcms/captcha",
@@ -153,16 +153,16 @@
         },
         {
             "name": "ebcms/cms",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/app-cms.git",
-                "reference": "984a1a574db914d18c1e5bd1c01c970563991bdf"
+                "reference": "913a2b3dbcb601c4cfeb10cfe32bb366e6875d52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/app-cms/zipball/984a1a574db914d18c1e5bd1c01c970563991bdf",
-                "reference": "984a1a574db914d18c1e5bd1c01c970563991bdf",
+                "url": "https://api.github.com/repos/ebcms/app-cms/zipball/913a2b3dbcb601c4cfeb10cfe32bb366e6875d52",
+                "reference": "913a2b3dbcb601c4cfeb10cfe32bb366e6875d52",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -188,7 +188,7 @@
                 "Apache-2.0"
             ],
             "description": "ebcms cms",
-            "time": "2021-01-20T11:57:41+00:00"
+            "time": "2021-01-21T13:19:59+00:00"
         },
         {
             "name": "ebcms/database",
@@ -463,16 +463,16 @@
         },
         {
             "name": "ebcms/psr11",
-            "version": "1.0.9",
+            "version": "1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/psr11.git",
-                "reference": "136ca2aefbafd57842f3bc0aee49d217195e3ba4"
+                "reference": "445b5ff61b80077db87cfd19bb99dc82acafe6fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/psr11/zipball/136ca2aefbafd57842f3bc0aee49d217195e3ba4",
-                "reference": "136ca2aefbafd57842f3bc0aee49d217195e3ba4",
+                "url": "https://api.github.com/repos/ebcms/psr11/zipball/445b5ff61b80077db87cfd19bb99dc82acafe6fb",
+                "reference": "445b5ff61b80077db87cfd19bb99dc82acafe6fb",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -501,7 +501,7 @@
                 }
             ],
             "description": "php psr11",
-            "time": "2020-06-26T08:09:36+00:00"
+            "time": "2021-01-21T13:16:32+00:00"
         },
         {
             "name": "ebcms/psr14",
@@ -634,16 +634,16 @@
         },
         {
             "name": "ebcms/request-filter",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/library-request-filter.git",
-                "reference": "8187bf46e677277595fec2db8baee5ee2a65c342"
+                "reference": "5408290fb45803229e8fd426d1ee7dc2b937b816"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/library-request-filter/zipball/8187bf46e677277595fec2db8baee5ee2a65c342",
-                "reference": "8187bf46e677277595fec2db8baee5ee2a65c342",
+                "url": "https://api.github.com/repos/ebcms/library-request-filter/zipball/5408290fb45803229e8fd426d1ee7dc2b937b816",
+                "reference": "5408290fb45803229e8fd426d1ee7dc2b937b816",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -663,7 +663,7 @@
                 "Apache-2.0"
             ],
             "description": "php request filter",
-            "time": "2021-01-16T05:32:08+00:00"
+            "time": "2021-01-21T13:15:54+00:00"
         },
         {
             "name": "ebcms/router",
@@ -700,16 +700,16 @@
         },
         {
             "name": "ebcms/server",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/app-server.git",
-                "reference": "22f2c8680309ef1e0e793427bbea9cca48438a3a"
+                "reference": "a1fc37d1019a29b81e96d051f793b576ee7c9d77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/app-server/zipball/22f2c8680309ef1e0e793427bbea9cca48438a3a",
-                "reference": "22f2c8680309ef1e0e793427bbea9cca48438a3a",
+                "url": "https://api.github.com/repos/ebcms/app-server/zipball/a1fc37d1019a29b81e96d051f793b576ee7c9d77",
+                "reference": "a1fc37d1019a29b81e96d051f793b576ee7c9d77",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -735,7 +735,7 @@
                 "Apache-2.0"
             ],
             "description": "系统更新服务",
-            "time": "2021-01-16T05:51:53+00:00"
+            "time": "2021-01-21T13:27:17+00:00"
         },
         {
             "name": "ebcms/session",
@@ -772,16 +772,16 @@
         },
         {
             "name": "ebcms/store",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/app-store.git",
-                "reference": "96b3700ab53a40b41fe0d022400b66518e3f419b"
+                "reference": "36f308e565ce010c16afcf84a58513e01bc02196"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/app-store/zipball/96b3700ab53a40b41fe0d022400b66518e3f419b",
-                "reference": "96b3700ab53a40b41fe0d022400b66518e3f419b",
+                "url": "https://api.github.com/repos/ebcms/app-store/zipball/36f308e565ce010c16afcf84a58513e01bc02196",
+                "reference": "36f308e565ce010c16afcf84a58513e01bc02196",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -807,7 +807,7 @@
                 "Apache-2.0"
             ],
             "description": "应用商店",
-            "time": "2021-01-16T05:51:20+00:00"
+            "time": "2021-01-21T13:27:46+00:00"
         },
         {
             "name": "ebcms/template",
