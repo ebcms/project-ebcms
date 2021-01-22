@@ -304,16 +304,16 @@
         },
         {
             "name": "ebcms/framework",
-            "version": "1.1.19",
+            "version": "1.1.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/framework.git",
-                "reference": "04aa4f88dcf4f230c700aa0cef011ae35098456e"
+                "reference": "4ded51a13bae935bc689d3f5ffd2f2fd756b3d04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/framework/zipball/04aa4f88dcf4f230c700aa0cef011ae35098456e",
-                "reference": "04aa4f88dcf4f230c700aa0cef011ae35098456e",
+                "url": "https://api.github.com/repos/ebcms/framework/zipball/4ded51a13bae935bc689d3f5ffd2f2fd756b3d04",
+                "reference": "4ded51a13bae935bc689d3f5ffd2f2fd756b3d04",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -357,7 +357,7 @@
                 }
             ],
             "description": "ebcms framework",
-            "time": "2021-01-09T11:54:11+00:00"
+            "time": "2021-01-22T10:58:56+00:00"
         },
         {
             "name": "ebcms/include-wrapper",
