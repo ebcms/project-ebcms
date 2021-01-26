@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "18190756b0cf0b6d4f6c5c1e0a1e68e7",
+    "content-hash": "823181ce9206698f908d75c437421d21",
     "packages": [
         {
             "name": "catfan/medoo",
@@ -264,16 +264,16 @@
         },
         {
             "name": "ebcms/fragment",
-            "version": "1.0.2",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/app-fragment.git",
-                "reference": "fe3c69224ad78b40a9148674e16b0c73f444c388"
+                "reference": "aa3ebba1b5eae24298059a88dc1429136e42168e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/app-fragment/zipball/fe3c69224ad78b40a9148674e16b0c73f444c388",
-                "reference": "fe3c69224ad78b40a9148674e16b0c73f444c388",
+                "url": "https://api.github.com/repos/ebcms/app-fragment/zipball/aa3ebba1b5eae24298059a88dc1429136e42168e",
+                "reference": "aa3ebba1b5eae24298059a88dc1429136e42168e",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -300,7 +300,7 @@
                 "Apache-2.0"
             ],
             "description": "ebcms fragment",
-            "time": "2021-01-20T12:24:00+00:00"
+            "time": "2021-01-26T11:57:10+00:00"
         },
         {
             "name": "ebcms/framework",
@@ -772,16 +772,16 @@
         },
         {
             "name": "ebcms/store",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/app-store.git",
-                "reference": "6be32d7f7dba1e1cf417bc09eedf1be1d53e5a3f"
+                "reference": "1d133cac1eae2c30d400b90231a7cd5cf4c3a20a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/app-store/zipball/6be32d7f7dba1e1cf417bc09eedf1be1d53e5a3f",
-                "reference": "6be32d7f7dba1e1cf417bc09eedf1be1d53e5a3f",
+                "url": "https://api.github.com/repos/ebcms/app-store/zipball/1d133cac1eae2c30d400b90231a7cd5cf4c3a20a",
+                "reference": "1d133cac1eae2c30d400b90231a7cd5cf4c3a20a",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -807,7 +807,7 @@
                 "Apache-2.0"
             ],
             "description": "应用商店",
-            "time": "2021-01-25T10:12:58+00:00"
+            "time": "2021-01-26T11:37:24+00:00"
         },
         {
             "name": "ebcms/template",
