@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "823181ce9206698f908d75c437421d21",
+    "content-hash": "6f5f1d65e244b71083e65861613ca0d8",
     "packages": [
         {
             "name": "catfan/medoo",
@@ -772,16 +772,16 @@
         },
         {
             "name": "ebcms/store",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/app-store.git",
-                "reference": "1d133cac1eae2c30d400b90231a7cd5cf4c3a20a"
+                "reference": "d9947e11d7249d6250cb53c40112cb47a6eb8c83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/app-store/zipball/1d133cac1eae2c30d400b90231a7cd5cf4c3a20a",
-                "reference": "1d133cac1eae2c30d400b90231a7cd5cf4c3a20a",
+                "url": "https://api.github.com/repos/ebcms/app-store/zipball/d9947e11d7249d6250cb53c40112cb47a6eb8c83",
+                "reference": "d9947e11d7249d6250cb53c40112cb47a6eb8c83",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -807,7 +807,7 @@
                 "Apache-2.0"
             ],
             "description": "应用商店",
-            "time": "2021-01-26T11:37:24+00:00"
+            "time": "2021-01-26T12:37:40+00:00"
         },
         {
             "name": "ebcms/template",
