@@ -772,16 +772,16 @@
         },
         {
             "name": "ebcms/store",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/app-store.git",
-                "reference": "d9947e11d7249d6250cb53c40112cb47a6eb8c83"
+                "reference": "b4ea604e52b24bf00c5851a0b9a6e03d2524763d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/app-store/zipball/d9947e11d7249d6250cb53c40112cb47a6eb8c83",
-                "reference": "d9947e11d7249d6250cb53c40112cb47a6eb8c83",
+                "url": "https://api.github.com/repos/ebcms/app-store/zipball/b4ea604e52b24bf00c5851a0b9a6e03d2524763d",
+                "reference": "b4ea604e52b24bf00c5851a0b9a6e03d2524763d",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -807,7 +807,7 @@
                 "Apache-2.0"
             ],
             "description": "应用商店",
-            "time": "2021-01-26T12:37:40+00:00"
+            "time": "2021-01-27T12:48:49+00:00"
         },
         {
             "name": "ebcms/template",
