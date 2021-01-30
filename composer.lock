@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f5f1d65e244b71083e65861613ca0d8",
+    "content-hash": "21a7db6abc638eafb5dd92f5fccfa3c1",
     "packages": [
         {
             "name": "catfan/medoo",
@@ -229,16 +229,16 @@
         },
         {
             "name": "ebcms/form-builder",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/library-form-builder.git",
-                "reference": "c03b5c26bfd098690518e5e08fe8ccd307c0ffa5"
+                "reference": "96329d921b42d20306864f40469c87d06433c50f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/library-form-builder/zipball/c03b5c26bfd098690518e5e08fe8ccd307c0ffa5",
-                "reference": "c03b5c26bfd098690518e5e08fe8ccd307c0ffa5",
+                "url": "https://api.github.com/repos/ebcms/library-form-builder/zipball/96329d921b42d20306864f40469c87d06433c50f",
+                "reference": "96329d921b42d20306864f40469c87d06433c50f",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -260,7 +260,7 @@
             "license": [
                 "Apahce-2.0"
             ],
-            "time": "2021-01-16T05:34:37+00:00"
+            "time": "2021-01-30T07:26:26+00:00"
         },
         {
             "name": "ebcms/fragment",
