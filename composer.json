@@ -1,7 +1,7 @@
 {
     "name": "ebcms/ebcms",
     "description": "易贝内容管理系统",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "type": "project",
     "license": "Apache-2.0",
     "require": {

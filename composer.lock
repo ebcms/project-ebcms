@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "21a7db6abc638eafb5dd92f5fccfa3c1",
+    "content-hash": "e73f83524adff650606e97069bf127c2",
     "packages": [
         {
             "name": "catfan/medoo",
@@ -229,16 +229,16 @@
         },
         {
             "name": "ebcms/form-builder",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/library-form-builder.git",
-                "reference": "96329d921b42d20306864f40469c87d06433c50f"
+                "reference": "d16d352a575f4a7a1921b83658a496f6356001eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/library-form-builder/zipball/96329d921b42d20306864f40469c87d06433c50f",
-                "reference": "96329d921b42d20306864f40469c87d06433c50f",
+                "url": "https://api.github.com/repos/ebcms/library-form-builder/zipball/d16d352a575f4a7a1921b83658a496f6356001eb",
+                "reference": "d16d352a575f4a7a1921b83658a496f6356001eb",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -260,20 +260,20 @@
             "license": [
                 "Apahce-2.0"
             ],
-            "time": "2021-01-30T07:26:26+00:00"
+            "time": "2021-01-30T09:01:40+00:00"
         },
         {
             "name": "ebcms/fragment",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/app-fragment.git",
-                "reference": "aa3ebba1b5eae24298059a88dc1429136e42168e"
+                "reference": "ceb4966ab05c827caee882010ab8b15e4449ccd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/app-fragment/zipball/aa3ebba1b5eae24298059a88dc1429136e42168e",
-                "reference": "aa3ebba1b5eae24298059a88dc1429136e42168e",
+                "url": "https://api.github.com/repos/ebcms/app-fragment/zipball/ceb4966ab05c827caee882010ab8b15e4449ccd2",
+                "reference": "ceb4966ab05c827caee882010ab8b15e4449ccd2",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -300,7 +300,7 @@
                 "Apache-2.0"
             ],
             "description": "ebcms fragment",
-            "time": "2021-01-26T11:57:10+00:00"
+            "time": "2021-01-30T09:01:14+00:00"
         },
         {
             "name": "ebcms/framework",
