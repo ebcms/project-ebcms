@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "549f6e8801c3653278537be83e133aed",
+    "content-hash": "f4516fbcf71044b0089558de0b029d6a",
     "packages": [
         {
             "name": "catfan/medoo",
@@ -153,16 +153,16 @@
         },
         {
             "name": "ebcms/cms",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/app-cms.git",
-                "reference": "913a2b3dbcb601c4cfeb10cfe32bb366e6875d52"
+                "reference": "9b36c4cc27a2f2d8cc0d2970151d90992e3376da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/app-cms/zipball/913a2b3dbcb601c4cfeb10cfe32bb366e6875d52",
-                "reference": "913a2b3dbcb601c4cfeb10cfe32bb366e6875d52",
+                "url": "https://api.github.com/repos/ebcms/app-cms/zipball/9b36c4cc27a2f2d8cc0d2970151d90992e3376da",
+                "reference": "9b36c4cc27a2f2d8cc0d2970151d90992e3376da",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -188,7 +188,7 @@
                 "Apache-2.0"
             ],
             "description": "ebcms cms",
-            "time": "2021-01-21T13:19:59+00:00"
+            "time": "2021-01-31T13:09:20+00:00"
         },
         {
             "name": "ebcms/database",
