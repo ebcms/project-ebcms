@@ -27,6 +27,7 @@ SET time_zone = "+00:00";
 -- 表的结构 `prefix_ebcms_cms_category`
 --
 
+DROP TABLE IF EXISTS `prefix_ebcms_cms_category`;
 CREATE TABLE `prefix_ebcms_cms_category` (
   `id` int(10) UNSIGNED NOT NULL COMMENT '节点ID',
   `pid` int(10) UNSIGNED NOT NULL DEFAULT '0',
@@ -77,6 +78,7 @@ INSERT INTO `prefix_ebcms_cms_category` (`id`, `pid`, `type`, `title`, `alias`, 
 -- 表的结构 `prefix_ebcms_cms_content`
 --
 
+DROP TABLE IF EXISTS `prefix_ebcms_cms_content`;
 CREATE TABLE `prefix_ebcms_cms_content` (
   `id` int(10) UNSIGNED NOT NULL COMMENT '节点ID',
   `category_id` int(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT '分类id',
@@ -147,6 +149,7 @@ INSERT INTO `prefix_ebcms_cms_content` (`id`, `category_id`, `type`, `title`, `c
 -- 表的结构 `prefix_ebcms_cms_tag`
 --
 
+DROP TABLE IF EXISTS `prefix_ebcms_cms_tag`;
 CREATE TABLE `prefix_ebcms_cms_tag` (
   `id` int(10) UNSIGNED NOT NULL,
   `content_id` int(10) UNSIGNED NOT NULL DEFAULT '0' COMMENT '内容ID',
@@ -159,6 +162,7 @@ CREATE TABLE `prefix_ebcms_cms_tag` (
 -- 表的结构 `prefix_ebcms_fragment_content`
 --
 
+DROP TABLE IF EXISTS `prefix_ebcms_fragment_content`;
 CREATE TABLE `prefix_ebcms_fragment_content` (
   `id` int(10) UNSIGNED NOT NULL COMMENT '节点ID',
   `fragment_id` varchar(80) NOT NULL DEFAULT '' COMMENT '碎片id',
