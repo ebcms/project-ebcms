@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4516fbcf71044b0089558de0b029d6a",
+    "content-hash": "ad4d8efbd0efa630f3294079b4da19f4",
     "packages": [
         {
             "name": "catfan/medoo",
@@ -74,16 +74,16 @@
         },
         {
             "name": "ebcms/admin",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/app-admin.git",
-                "reference": "df76567f4b0be4a53ae3ec8d75f74f385f025e52"
+                "reference": "693d6bc94ccba3accfb673b17411efb047a4bac8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/app-admin/zipball/df76567f4b0be4a53ae3ec8d75f74f385f025e52",
-                "reference": "df76567f4b0be4a53ae3ec8d75f74f385f025e52",
+                "url": "https://api.github.com/repos/ebcms/app-admin/zipball/693d6bc94ccba3accfb673b17411efb047a4bac8",
+                "reference": "693d6bc94ccba3accfb673b17411efb047a4bac8",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -113,7 +113,7 @@
                 "Apache-2.0"
             ],
             "description": "admin console for ebcms",
-            "time": "2021-01-31T12:01:30+00:00"
+            "time": "2021-02-06T02:48:44+00:00"
         },
         {
             "name": "ebcms/captcha",
