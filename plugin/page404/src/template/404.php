@@ -1,10 +1,3 @@
-<?php
-return [
-    'tpl_404' => [
-        'type' => 'template',
-        'title' => '404模板',
-        'template' => (function () {
-            $template = <<<'str'
 <!DOCTYPE html>
 <html lang="zh-CN">
 
@@ -25,8 +18,3 @@ return [
 </body>
 
 </html>
-str;
-            return htmlspecialchars($template);
-        })(),
-    ],
-];

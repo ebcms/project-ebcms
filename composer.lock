@@ -304,16 +304,16 @@
         },
         {
             "name": "ebcms/framework",
-            "version": "1.1.22",
+            "version": "1.1.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/framework.git",
-                "reference": "5b66eca321916715a8e949aaf13ab5d9d25610ef"
+                "reference": "1a95aca989bb1f4355482dc4509325e14c36f380"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/framework/zipball/5b66eca321916715a8e949aaf13ab5d9d25610ef",
-                "reference": "5b66eca321916715a8e949aaf13ab5d9d25610ef",
+                "url": "https://api.github.com/repos/ebcms/framework/zipball/1a95aca989bb1f4355482dc4509325e14c36f380",
+                "reference": "1a95aca989bb1f4355482dc4509325e14c36f380",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -357,7 +357,7 @@
                 }
             ],
             "description": "ebcms framework",
-            "time": "2021-01-31T12:27:28+00:00"
+            "time": "2021-02-19T13:01:37+00:00"
         },
         {
             "name": "ebcms/include-wrapper",
@@ -667,16 +667,16 @@
         },
         {
             "name": "ebcms/router",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebcms/router.git",
-                "reference": "0cee20e91bf0ea63806691f3be59857d4abdb70b"
+                "reference": "5bfb7c549fc0387fd49974a003cb934fe8c6e378"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebcms/router/zipball/0cee20e91bf0ea63806691f3be59857d4abdb70b",
-                "reference": "0cee20e91bf0ea63806691f3be59857d4abdb70b",
+                "url": "https://api.github.com/repos/ebcms/router/zipball/5bfb7c549fc0387fd49974a003cb934fe8c6e378",
+                "reference": "5bfb7c549fc0387fd49974a003cb934fe8c6e378",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -696,7 +696,7 @@
                 "MIT"
             ],
             "description": "router",
-            "time": "2021-01-18T12:25:51+00:00"
+            "time": "2021-02-19T13:00:13+00:00"
         },
         {
             "name": "ebcms/server",

@@ -32,9 +32,9 @@ App::getInstance()->execute(function (
             }
         })();
     })(), function (Collector $collector) {
-        $collector->get('/', Index::class, '/ebcms/cms/web/index');
-        $collector->get('/category', Category::class, '/ebcms/cms/web/category');
-        $collector->get('/content', Content::class, '/ebcms/cms/web/content');
-        $collector->get('/search', Search::class, '/ebcms/cms/web/search');
+        $collector->get('/', Index::class);
+        $collector->get('/category', Category::class);
+        $collector->get('/content', Content::class);
+        $collector->get('/search', Search::class);
     });
 });
