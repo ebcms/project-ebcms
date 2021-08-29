@@ -13,7 +13,7 @@
 
 ![官方QQ群](https://static.ebcms.com/img/qun.png)
 
-### 联系我们
+## 联系我们
 
 [官方网站：https://www.ebcms.com](https://www.ebcms.com)
 
