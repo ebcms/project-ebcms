@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Plugin\Page404\Middleware;
 
 use Ebcms\App;
+use Ebcms\ResponseFactory;
 use Ebcms\Template;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
@@ -19,10 +20,11 @@ class Page404 implements MiddlewareInterface
     ): ResponseInterface {
         $response = $handler->handle($request);
         if ($response->getStatusCode() == 404) {
-            App::getInstance()->execute(function (
+            return App::getInstance()->execute(function (
+                ResponseFactory $responseFactory,
                 Template $template
-            ) use ($response) {
-                $response->getBody()->write($template->renderFromFile('404@plugin/page404'));
+            ) {
+                return $responseFactory->createGeneralResponse(404, [], $template->renderFromFile('404@plugin/page404'));
             });
         }
         return $response;

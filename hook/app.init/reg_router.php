@@ -33,8 +33,9 @@ App::getInstance()->execute(function (
         })();
     })(), function (Collector $collector) {
         $collector->get('/', Index::class);
-        $collector->get('/category', Category::class);
-        $collector->get('/content', Content::class);
-        $collector->get('/search', Search::class);
+        $collector->get('/plugin/search.php', Search::class);
+        $collector->get('/{category}/{id}.html', Content::class);
+        $collector->get('/{name}-p{page}.html', Category::class);
+        $collector->get('/{name}.html', Category::class);
     });
 });

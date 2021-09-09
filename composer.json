@@ -1,15 +1,18 @@
 {
     "name": "ebcms/ebcms",
     "description": "易贝内容管理系统",
-    "version": "1.0.10",
     "type": "project",
     "license": "Apache-2.0",
     "require": {
-        "ebcms/admin": "^1.0",
-        "ebcms/server": "^1.0",
-        "ebcms/plugin": "^1.0",
-        "ebcms/store": "^1.0",
-        "ebcms/fragment": "^1.0",
-        "ebcms/cms": "^1.0"
+        "ebcms/admin": "^2.0",
+        "ebcms/server": "^2.0",
+        "ebcms/plugin": "^2.0",
+        "ebcms/store": "^2.0",
+        "ebcms/fragment": "^2.0",
+        "ebcms/cms": "^2.0",
+        "ebcms/installer": "^1.0"
+    },
+    "extra": {
+        "version": "2.0.0"
     }
 }
