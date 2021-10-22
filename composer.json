@@ -1,18 +1,23 @@
 {
-    "name": "ebcms/ebcms",
+    "name": "ebcms/project-ebcms",
     "description": "易贝内容管理系统",
     "type": "project",
     "license": "Apache-2.0",
-    "require": {
-        "ebcms/admin": "^2.0",
-        "ebcms/server": "^2.0",
-        "ebcms/plugin": "^2.0",
-        "ebcms/store": "^2.0",
-        "ebcms/fragment": "^2.0",
-        "ebcms/cms": "^2.0",
-        "ebcms/installer": "^1.0"
+    "scripts": {
+        "pre-package-install": "Ebcms\\Script::prePackageInstall",
+        "post-package-install": "Ebcms\\Script::postPackageInstall",
+        "pre-package-update": "Ebcms\\Script::prePackageUpdate",
+        "post-package-update": "Ebcms\\Script::postPackageUpdate",
+        "pre-package-uninstall": "Ebcms\\Script::prePackageUninstall",
+        "post-package-uninstall": "Ebcms\\Script::postPackageUninstall"
     },
-    "extra": {
-        "version": "2.0.0"
+    "require": {
+        "ebcms/framework": "^2.0",
+        "ebcms/whoops": "^1.0",
+        "ebcms/monolog": "^1.0",
+        "ebcms/page404": "^1.0",
+        "ebcms/appm": "^1.0",
+        "ebcms/cms": "^2.0",
+        "ebcms/cms-web": "^1.0"
     }
 }

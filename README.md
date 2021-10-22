@@ -7,7 +7,13 @@
 * 文章站
 * 企业官网
 
-也可以通过插件系统扩展其他功能。
+## 功能扩展
+
+可以通过`composer`安装更多功能。
+
+[去应用商店](https://www.ebcms.com)
+
+## 交流群
 
 欢迎加入官方QQ交流群：
 
@@ -19,4 +25,4 @@
 
 [开源地址：https://github.com/ebcms/project-ebcms](https://github.com/ebcms/project-ebcms)
 
-***坚决抵制盗版系统，维护健康网络环境！***
+***盗版系统存在巨大安全风险，请勿使用盗版系统！***
