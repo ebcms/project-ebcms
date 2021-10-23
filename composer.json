@@ -18,6 +18,7 @@
         "ebcms/page404": "^1.0",
         "ebcms/appm": "^1.0",
         "ebcms/cms": "^2.0",
-        "ebcms/cms-web": "^1.0"
+        "ebcms/cms-web": "^1.0",
+        "ebcms/installer": "^1.0"
     }
 }
